@@ -9,4 +9,4 @@ Repository for DataStructureStudy
 
 ## How to use Branch
 
-## 
+## How to use Issue
