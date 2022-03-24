@@ -23,8 +23,8 @@ Github?
 - Commit: 저장소에 저장하는 작업
 - Branch: 가지 또는 분기점, 작업을 할때, 현재 상태를 복사하여 Branch에서 작업한다. 작업과 검증을 완전히 마친 후에 Merge하여 작업을 한다. 
 - Merge: 다른 Branch의 내용을 현재 Branch로 가져와 합치는 작업을 의미한다.
-
-## How to install git and github
+<br><br>
+## How to install git & set Github
 1. [install Git](http://git-scm.com/download/win) 
 
 2. 사용자 이름/ 이메일 등록
@@ -62,6 +62,16 @@ Github?
     
 
 ## How to use Git & Github
+
+### Clone Repository
+1. 원하는 Repository를 clone받기 해당 Repo의 clone code를 복사한다.
+    ![clone code](./images/clone_http.png)
+2. terminal에서 clone 받고 싶은 위치로 이동한다.
+
+    ``` 
+    git clone https://github.com/iopopoi/StudyForDataStructure.git
+    ```
+
 
 ## How to use Repository
 
