@@ -24,7 +24,8 @@ Github?
 - Branch: 가지 또는 분기점, 작업을 할때, 현재 상태를 복사하여 Branch에서 작업한다. 작업과 검증을 완전히 마친 후에 Merge하여 작업을 한다. 
 - Merge: 다른 Branch의 내용을 현재 Branch로 가져와 합치는 작업을 의미한다.
 <br><br>
-## How to install git & set Github
+
+## Install Git & set Github
 1. [install Git](http://git-scm.com/download/win) 
 
 2. 사용자 이름/ 이메일 등록
@@ -63,18 +64,50 @@ Github?
 
 ## How to use Git & Github
 
-### Clone Repository
-1. 원하는 Repository를 clone받기 해당 Repo의 clone code를 복사한다.
-    ![clone code](./images/clone_http.png)
-2. terminal에서 clone 받고 싶은 위치로 이동한다.
+- Clone Repository
+    1. 원하는 Repository를 clone받기 해당 Repo의 clone code를 복사한다.
+        ![clone code](./images/clone_http.png)
+    2. terminal에서 clone 받고 싶은 위치로 이동한다.
 
-    ``` 
-    git clone https://github.com/iopopoi/StudyForDataStructure.git
+        ``` 
+        git clone https://github.com/iopopoi/StudyForDataStructure.git
+        ```
+        위의 명령여를 통해 Repo를 clone하면 clone받은 위치에 폴더가 생기는 것을 볼 수 있다.
+
+
+- git 생성하기
     ```
-
+    $ git init
+    ```
+- 연결된 저장소의 내용 불러오기
+    ```
+    $ git pull
+    $ git pull origin
+    $ git pull <branch name>
+    $ git pull origin <branch name>
+    ```
+- 수정한 코드 확인하기 
+    ```
+    $ git status
+    ```
+- 수정한 코드 선택하기
+    ```
+    $ git add file_path 
+    $ git add ./ #수정된 모든 파일을 선택한다.
+    ```
+- 선택한 코드의 설명을 적는다.
+    ```
+    $ git commit -m <설명>
+    ```
+- add하고 commit 한 코드를 git server에 보낸다. [ 로컬 Repo -> 원격 Repo ]
+    ```
+    $ git push <저장소명> <브랜치명>
+    $ git push origin master
+    $ git push
+    ```
+## How to use Branch
+- branch생성하기
 
 ## How to use Repository
-
-## How to use Branch
 
 ## How to use Issue
