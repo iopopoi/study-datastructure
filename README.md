@@ -26,6 +26,7 @@ Github?
 
 ## How to install git and github
 1. [install Git](http://git-scm.com/download/win) 
+
 2. 사용자 이름/ 이메일 등록
     ```
     git config --global user.name "사용자이름"
@@ -33,9 +34,34 @@ Github?
 
     git config --list
     ```
-3. [install Github](s)
 
-## How to Clone
+3. [Github 가입하기](https://github.com/)
+
+4. git bash 실행 및 ssh키 생성하기_[참고자료](https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/)
+    ```
+    $ cd ~/.ssh
+    $ ls
+    ```
+    ls를 통해 id_ed25519와 id_ed25519.pub 또는 id_rsa와 id_rsa.pub 파일 쌍이 있는지 확인한다.
+    이 파일이 없는 경우
+    ```
+    $ ssh-keygen -t ed25519 -C "your_email@example.com"
+    ```
+    위의 명령어를 통해 ssh키를 생성한다. 저장위치와 ssh키의 비밀번호 설정을 물으면 원하는 설정을 해줍니다. (편한건 default, 그냥 "enter"를 눌러주면 됩니다.)
+    ```
+    cat id_rsa.pub
+    ```
+    위의 명령어를 통해 key를 확인하고 결과를 모두 복사한다.<br>
+
+5. Github에 ssh키를 등록한다.
+    - Github 로그인 후 오른쪽 상당의 프로필을 클릭하소, Setting 메뉴로 이동한다.
+    - 사이드 바에서 SSH and GPU keys 메뉴를 선택하고 New SSH key를 클릭한다.
+    - Title: 등록하여는 키의 이름, 본인이 구분하기 편하도록 이름을 정한다.
+    - Key: 앞서 복사한 키를 입력한다.
+    - Add SSH key
+    
+
+## How to use Git & Github
 
 ## How to use Repository
 
