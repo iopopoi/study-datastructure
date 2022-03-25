@@ -36,7 +36,7 @@ Github?
 
 용어들...
 - Repository: 저장소, branch에 따라 소스코드, 히스토리를 저장한다. 
-- Commit: 저장소에 저장하는 작업
+- Commit
 - Branch: 가지 또는 분기점, 작업을 할때, 현재 상태를 복사하여 Branch에서 작업한다. 작업과 검증을 완전히 마친 후에 Merge하여 작업을 한다. 
 - Merge: 다른 Branch의 내용을 현재 Branch로 가져와 합치는 작업을 의미한다.
 <br><br>
