@@ -7,11 +7,14 @@ Repository for DataStructureStudy
 1. 각자 자신의 branch를 만들어 작업하고 작업한 내용을 자신의 branch에 push한다.
 2. 자신의 branch의 내용을 main branch에 포함시키기 위한 pull request를 작성한다(요청한다). 
 3. Save and Share code
-    - 각 주차 폴더 안에 자신이 이름으로 된 폴더를 만든다.
+    - "name_BOJ ID"폴더를 만들고 그 안에 각 주차 폴더를 만든다.
     - 폴더 안에 파일을 만들고 작업한다.
     - 작업 후에 자신의 branch에 push하여 공유한다.
     - pull request를 작성한다(요청한다).
+        - main <- my branch
+        - 이름, 문제 번호. 문제이름(, 문제 풀이 설명 등)을 포함하여 작성합니다.
 4. 질문은 issue를 이용한다. 
+    - 원하는 tag가 있는지 확인하고 원하는 tag가 없으면 직접 만들어주세요.
 <br><br>
 
 ## Git & Github?
