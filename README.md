@@ -1,5 +1,18 @@
 # StudyForDataStructure
 Repository for DataStructureStudy
+## Study
+- [Part1. STL, vector, sort](https://abrupt-pancake-3c6.notion.site/C-STL-85ae6658dc0a433eb2db902752894ee6)
+
+## How to use this Repo
+1. 각자 자신의 branch를 만들어 작업하고 작업한 내용을 자신의 branch에 push한다.
+2. 자신의 branch의 내용을 main branch에 포함시키기 위한 pull request를 작성한다(요청한다). 
+3. Save and Share code
+    - 각 주차 폴더 안에 자신이 이름으로 된 폴더를 만든다.
+    - 폴더 안에 파일을 만들고 작업한다.
+    - 작업 후에 자신의 branch에 push하여 공유한다.
+    - pull request를 작성한다(요청한다).
+4. 질문은 issue를 이용한다. 
+<br><br>
 
 ## Git & Github?
 ### Git  _  [공식한글메뉴얼](https://git-scm.com/book/ko/v2)
@@ -148,9 +161,6 @@ Github?
     ```
     $ git branch merge <branch 명> # 병합시킬 branch의 상위 branch애서 merge하여 두 branch를 병합한다.
     ```
-
-## How to use this Repo
-
 
 ### 참고자료
 - [[Git] git 명령어 모음, 총 정리 (gitbash, terminal)](https://gorokke.tistory.com/22)
