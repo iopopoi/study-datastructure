@@ -30,8 +30,8 @@ Github?
 
 2. 사용자 이름/ 이메일 등록
     ```
-    git config --global user.name "사용자이름"
-    git config --global user.email "이메일@abc.com"
+    git config --global user.name "user_name"
+    git config --global user.email "your_email@example.com"
 
     git config --list
     ```
