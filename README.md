@@ -101,7 +101,7 @@ Github?
     ```
 - add하고 commit 한 코드를 git server에 보낸다. [ 로컬 Repo -> 원격 Repo ]
     ```
-    $ git push <저장소명> <브랜치명>
+    $ git push origin <브랜치명>
     $ git push origin master
     $ git push
     ```
@@ -149,7 +149,7 @@ Github?
     $ git branch merge <branch 명> # 병합시킬 branch의 상위 branch애서 merge하여 두 branch를 병합한다.
     ```
 
-
+## How to use this Repo
 
 
 ### 참고자료
