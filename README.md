@@ -92,7 +92,7 @@ Github?
     ```
 - 수정한 코드 선택하기
     ```
-    $ git add file_path 
+    $ git add <file명, 확장자명, 파일경로> 
     $ git add ./ #수정된 모든 파일을 선택한다.
     ```
 - 선택한 코드의 설명을 적는다.
@@ -105,9 +105,52 @@ Github?
     $ git push origin master
     $ git push
     ```
+- commit 내역 확인
+    ```
+    $ git log
+    $ git log --pretty=oneline # 한줄로 표기하기
+    ```
+-  [local](https://gitabout.com/8#:~:text=%EA%B0%88%20%EC%88%98%20%EC%9E%88%EC%8A%B5%EB%8B%88%EB%8B%A4.%C2%A0-,Git%20reset,-Git%20reset%20%EB%AA%85%EB%A0%B9%EC%96%B4%EB%8A%94) 원하는 지점으로 되돌리기
+    ```
+    $ git log # 되돌리고 싶은 위치의 commit hash를 확인한다.
+    $ git reset <option> <commit hash>
+    $ git reset <commit hash>
+    $ git reset --soft <commit hash> # commit 이력은 삭제하지만 추가된 파일이 삭제되지 않는다.
+    $ git reset --hard <commit hash> # 과거에 발생한 모든 수정사항을 깔끔하게 지운다. 변경 사항을 유지할 필요하 없을 때 이용한다.
+    ```
+- [원격 저장소](https://gitabout.com/8#:~:text=Git-,revert,-%EC%BB%A4%EB%B0%8B%20%EC%9D%B4%EB%A0%A5%EC%9D%84%20%EA%B3%BC%EA%B1%B0%EB%A1%9C) 원하는 지점으로 복구하여 새로운 commit 생성
+    ```
+    $ git revert <commit hash>
+    ```
+- reset vs revert
+    - reset은 작업을 단순하게 해주는 장점이 있지만 이미 원격 저장소에  push된 commit은 reset으로 되도리면 안된다.
+    - 원격 저장소와 싱크라 맞지 않아 commit 을 push할 수 없다.<
+    - 이와 달리 revert는 commit history를 수정하지 않고 새로운 commit을 -생성하기 때문에 원격 저장소에 push된 commit도 수정이 가능하다.
+
 ## How to use Branch
+- brahch 목록 확인하기
+    ```
+    $ git branch -v
+    ```
 - branch생성하기
+    ```
+    $ git branch <branch 명>
+    ```
+- 원하는 branch로 이동
+    ```
+    $ git checkout <branch명>
+    $ git checkout -b <branch명> #branch를 생성하고 해당 branch로 이동한다.
+- branch 삭제하기
+    ```
+    $ git branch -d <branch 명>
+    ```
+- branch 병합하기
+    ```
+    $ git branch merge <branch 명> # 병합시킬 branch의 상위 branch애서 merge하여 두 branch를 병합한다.
+    ```
 
-## How to use Repository
 
-## How to use Issue
+
+
+### 참고자료
+- [[Git] git 명령어 모음, 총 정리 (gitbash, terminal)](https://gorokke.tistory.com/22)
