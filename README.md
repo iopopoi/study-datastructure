@@ -2,6 +2,7 @@
 Repository for DataStructureStudy
 ## Study
 - [Part1. STL, vector, sort](https://abrupt-pancake-3c6.notion.site/C-STL-85ae6658dc0a433eb2db902752894ee6)
+- [Part2. Stack & Queue](https://abrupt-pancake-3c6.notion.site/stack-queue-109b7affba8e443c906c353edc6a8bab)
 
 ## How to use this Repo
 1. 각자 자신의 branch를 만들어 작업하고 작업한 내용을 자신의 branch에 push한다.
