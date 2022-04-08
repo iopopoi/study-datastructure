@@ -10,7 +10,7 @@ int main()
     cin.tie(0);
     ios_base::sync_with_stdio(0);
 
-    int N, x;
+    int N;
     string st;
     stack<int> s;
 
@@ -21,6 +21,7 @@ int main()
         cin >> st;
         if (st == "push")
         {
+            int x;
             cin >> x;
             s.push(x);
         }
@@ -48,11 +49,11 @@ int main()
         {
             if (!s.empty())
             {
-                cout << -1 << "\n";
+                cout << s.top() << "\n";
             }
             else
             {
-                cout << s.top() << "\n";
+                cout << -1 << "\n";
             }
         }
     }
