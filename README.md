@@ -5,6 +5,7 @@ Repository for DataStructureStudy
 - [Part2. Stack & Queue](https://abrupt-pancake-3c6.notion.site/stack-queue-109b7affba8e443c906c353edc6a8bab)
 - [Part3. Flood Fill](https://abrupt-pancake-3c6.notion.site/flood-fill-9fbd301454424989a300701c51c33447)
 - [Part4. Graph](https://abrupt-pancake-3c6.notion.site/Graph-150a376d0a3042d8bd47807cbe552222)
+- [Part5. Tree](https://abrupt-pancake-3c6.notion.site/Tree-40ffd6703de645c0a22b0fb8670fa2b6)
 ## How to use this Repo
 1. 각자 자신의 branch를 만들어 작업하고 작업한 내용을 자신의 branch에 push한다.
 2. 자신의 branch의 내용을 main branch에 포함시키기 위한 pull request를 작성한다(요청한다). 
